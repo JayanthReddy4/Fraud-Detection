@@ -1,13 +1,25 @@
-🚀 Fraud Detection using AI & MLflow  
 
-📌 Overview  
 
-This project implements an AI-powered fraud detection system for banking transactions using machine learning. It includes data preprocessing, model training, evaluation, and monitoring using **MLflow** for experiment tracking.  
+# 🚀 Fraud Detection using AI & MLflow  
 
-🔧 Setup Instructions  
-1️⃣ Clone the Repository  
+## 📌 Overview  
+This project implements an **AI-powered fraud detection system** for banking transactions using **machine learning**. It includes data preprocessing, model training, evaluation, and monitoring using **MLflow** for experiment tracking.  
 
-bash
+## 🏗 Project Structure  
+```
+fraud-detection-ai/
+│── data/                # Sample dataset  
+│── notebooks/           # Jupyter Notebooks for training & evaluation  
+│── models/              # Saved ML models  
+│── scripts/             # Python scripts for preprocessing & training  
+│── mlruns/              # MLflow experiment logs  
+│── requirements.txt     # Dependencies  
+│── README.md            # Project documentation  
+```
+
+## 🔧 Setup Instructions  
+### 1️⃣ Clone the Repository  
+```bash
 git clone https://github.com/yourusername/fraud-detection-ai.git  
 cd fraud-detection-ai  
 ```
@@ -48,5 +60,3 @@ Feel free to fork this repo and submit PRs to improve fraud detection accuracy!
 This project is open-source under the **MIT License**.  
 
 ---
-
-This `README.md` is **concise, clear, and easy to follow**. Let me know if you want any modifications! 🚀
